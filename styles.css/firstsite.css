@@ -1,0 +1,219 @@
+* {
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* contact button */
+.btn-primary {
+    margin-top: 32px;
+   
+    border: none;
+    padding: 20px 25px;
+    color:white;
+    font-weight: 600;
+    font-size: 20px; 
+    background: #F15B22;
+border-radius: 5px;
+margin-bottom: 100px;
+margin-right: 200px;
+
+}
+
+.banner {
+    background-image: url(../images/banner/banner1.png);
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-size: 100% 100%;
+    height: 100vh;
+
+
+}
+
+.banner-information {
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+
+}
+.human-picture{
+    display: flex;
+
+}
+
+.banner-caption {
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding-right: 200px;
+    
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-right: 200px;
+   
+
+
+}
+
+
+.human-picture{
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    margin-right:87px;
+   
+}
+.human-text{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.text-caption{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.failour-description{
+    color: #737272;
+}
+ul{
+    list-style: none;
+}
+li{
+    position:relative;
+    margin-bottom: 8px;
+    color: #737272;
+
+}
+ul li::before{
+    content:'✓';
+    color: green;
+    margin-right: 20px;
+}
+
+.ph-picture{
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    margin-right:87px;
+   
+}
+.ph{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.ph-caption{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.why-programming-hero{
+    color: #737272;
+}
+.plan-headline {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.plan-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+.plans{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.plans-title{
+    text-align: center;
+    color: #737272;
+
+}
+.gradient{
+    height: 200px;
+    background-image:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    margin: 130px 230px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.gradient-container{
+    font-size:15px;
+    color: #FFFFFF;
+    margin-left: 60px;
+   
+    
+}
+.gradient-head{
+    font-weight: 700;
+font-size: 40px;
+}
+.call-btn{
+    margin-top: 32px;
+    padding: 21px 36px;
+    border: none;
+    color: #F15B22;
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px; 
+
+}
+.end-container{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: black;
+    padding-top: 130px;
+}
+.social-medias{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 130px;
+}
+address a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+::placeholder{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+input{
+    width: 200px;
+    border-radius: 3px;
+    height: 40px;
+    border: none;
+    padding: 0px 18px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid;
+}
+.Subscribe-btn{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+    color:orangered;
+    font-weight: 600;
+    font-size: 20px;   
+}
